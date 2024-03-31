@@ -37,7 +37,7 @@ namespace API.Data.Migrations
                     b.Property<long>("Price")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("QuantityStock")
+                    b.Property<int>("QuantityInStock")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Type")
